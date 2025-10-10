@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /fjs
+Disallow: /pm
+Disallow: /fz
+Disallow: /fy
