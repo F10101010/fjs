@@ -1,0 +1,229 @@
+﻿<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<style type="text/css">
+<!--
+a:link { text-decoration: none;color: #666666}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline;color: red}
+a:visited { text-decoration: none;color: green}
+
+body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+
+font-size: 9pt;
+}
+--> 
+</style>
+
+
+    <script>  
+        // 定义一个函数来更新页面上的日期、星期和时间  
+        function updateDateTime() {  
+            var now = new Date(); // 获取当前时间  
+  
+            // 格式化日期  
+            var year = now.getFullYear();  
+            var month = String(now.getMonth() + 1).padStart(2, '0'); // 月份是从0开始的，所以要+1  
+            var day = String(now.getDate()).padStart(2, '0');  
+            var dateStr = year + '-' + month + '-' + day;  
+  
+            // 格式化星期（中文）  
+            var weekdays = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];  
+            var weekday = weekdays[now.getDay()];  
+  
+            // 格式化时间  
+            var hours = String(now.getHours()).padStart(2, '0');  
+            var minutes = String(now.getMinutes()).padStart(2, '0');  
+            var seconds = String(now.getSeconds()).padStart(2, '0');  
+            var timeStr = hours + ':' + minutes + ':' + seconds;  
+  
+            // 更新页面上的元素  
+            document.getElementById('date').textContent = dateStr;  
+            document.getElementById('weekday').textContent = weekday;  
+            document.getElementById('time').textContent = timeStr;  
+  
+            // 每秒更新一次时间  
+            setTimeout(updateDateTime, 1000);  
+        }  
+  
+        // 页面加载完成后执行  
+        window.onload = function() {  
+            updateDateTime();  
+        };  
+    </script> 
+
+
+<title>中业</title>
+
+</head>
+
+
+
+
+
+<body>
+
+<p style="text-align: center;">
+  <strong>
+    <a href="http://www.fjspm.com/fjs">FJS</a>　　<a href="http://www.fjspm.com/pm">PM</a>　　<span style="color: rgb(255, 0, 255);">中业</span>
+  </strong>
+</p>
+
+
+<table border="5" cellspacing="0" bordercolor="#ff4500" cellpadding="20" width="99%" height="" align="center" style="text-align:center;">
+	<tbody>
+		<tr>
+			<td>
+				<span style="font-size:9pt;"><strong>海关</strong></span>
+			</td>
+			<td>
+				<a target="_blank" href="https://app.singlewindow.cn/cas/login?_loginInternetPlus=1&service=http%3A%2F%2Fonline.customs.gov.cn%2Flogin%2Flogin"><img border="0" alt="互联网+海关" src="/img/zhongye/OnlineCustoms.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://query.customs.gov.cn/MNFTQ/MRoadQuery.aspx"><img border="0" alt="提单信息查询" src="/img/zhongye/customs.gov.cn_MRoadQuery.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://202.127.48.145:8888/zscq/search/jsp/vBrandSearchIndex.jsp"><img border="0" alt="知识产权查询" src="/img/zhongye/customs_zscq.png" /></a>
+			</td>
+			<td>
+			</td>
+			<td>
+				<a target="_blank" href="http://www.customs.gov.cn/customs/302427/302442/jckszcx/index.html"><img border="0" alt="进出口税则查询" src="/img/zhongye/customs.gov.cn_jckszcx.png" /></a>
+			</td>
+		</tr>
+
+
+
+		<tr>
+			<td rowspan="2">
+				<span style="font-size:9pt;"><strong>通关</strong></span> 
+			</td>
+			<td>
+				<a target="_blank" href="https://swapp.singlewindow.cn/deskserver/sw/deskIndex?menu_id=swcebexp"><img border="0" alt="中国国际贸易单一窗口" src="/img/zhongye/singlewindow.cn.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://cbec.singlewindow.gz.cn"><img border="0" alt="广州跨电" src="/img/zhongye/kuadian_guangzhou.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://cbec.zheport.com:21443"><img border="0" alt="珠海跨电" src="/img/zhongye/kuadian_zhuhai.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://china-fsgec.fs.cn/cbec/usercenter"><img border="0" alt="佛山跨电" src="/img/zhongye/kuadian_foshan.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://www.hscode.net/IntegrateQueries/QueryYS"><span style="font-size:9pt;font-family:微软雅黑;">申报要素查询</span></a> <br />
+<a target="_blank" href="https://www.hscode.net"><img border="0" alt="通关网" src="/img/zhongye/hscode.net.png" /></a>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<a target="_blank" href="http://159.75.168.254:8756"><img border="0" alt="舱单（回空）" src="/img/zhongye/zhrzsoft-ecs1.com.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://119.23.147.195:8023/quickpass/login"><img border="0" alt="飞跑跨境出口云申报平台" src="/img/zhongye/feipao.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://smart.realpark.club"><img border="0" alt="车场管理" src="/img/zhongye/realpark.club.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://swapp.singlewindow.cn/qspserver/sw/qsp/query/view/export"><img border="0" alt="通关全流程状态查询" src="/img/zhongye/tgqlcztcx.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://hscode.com.cn"><img border="0" alt="hscode" src="/img/zhongye/hscode.com.cn.png" /></a>
+			</td>
+		</tr>
+
+
+
+		<tr>
+			<td>
+				<span style="font-size:9pt;"><strong>澳門</strong></span>
+			</td>
+			<td>
+				<a target="_blank" href="https://eservice.customs.gov.mo/dao/page/entry/main.html"><img border="0" alt="清關易" src="/img/zhongye/dao.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://eservice.edi.gov.mo/ecustoms"><img border="0" alt="澳門電子報關系統" src="/img/zhongye/edi.gov.mo.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://www.smg.gov.mo/smg/zawarning/index.php"><img border="0" alt="珠澳氣象預警" src="/img/zhongye/smg.gov.mo.png" /></a>
+			</td>
+			<td>
+			</td>
+			<td>
+				<a target="_blank" href="https://www.censtatd.gov.hk/tc/index_hs_code.html"><span style="font-size:9pt;font-family:微软雅黑;">HK編號查詢</span> <br />
+</a><a target="_blank" href="https://www.dsec.gov.mo/EMTS.aspx"><img border="0" alt="DSEC-外貿資料庫" src="/img/zhongye/dsec.png" /></a> <br />
+<a target="_blank" href="https://www.dsec.gov.mo/EMTS/NCEMSearch2022.aspx?Type=1"><span style="font-size:9pt;font-family:微软雅黑;">關鍵字</span></a>&emsp;<a target="_blank" href="https://www.dsec.gov.mo/EMTS/NCEMSearch2_2022.aspx?Type=2"><span style="font-size:9pt;font-family:微软雅黑;">編碼</span></a>&emsp;<a target="_blank" href="https://www.dsec.gov.mo/EMTS/SearchCorrelationTable2022.aspx"><span style="font-size:9pt;font-family:微软雅黑;">新舊對照</span></a>
+			</td>
+		</tr>
+
+
+
+		<tr>
+			<td rowspan="2">
+				<span style="font-size:9pt;"><strong>工具</strong></span> 
+			</td>
+			<td>
+				<a target="_blank" href="https://www.weiyun.com/disk"><img border="0" alt="腾讯微云" src="/img/zhongye/weiyun.jpg" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://mail.gangheng-gz.com"><img border="0" alt="263企业邮箱" src="/img/zhongye/263.net.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="https://flightaware.com"><img border="0" alt="航班跟踪/航班状态/飞行跟踪" src="/img/zhongye/FlightAware.com.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://www.800000361.com/gs/"><img border="0" alt="全国企业一般纳税人资格查询" src="/img/zhongye/yibannashuiren.png" /></a>
+			</td>
+			<td>
+				<a target="_blank" href="http://www.hs-bianma.com"><img border="0" alt="HS-编码查询" src="/img/zhongye/hs-bianma.com.png" /></a>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<span style="font-size: 12pt; font-family:微软雅黑;">PDF → OFD</span><br />
+                                <a target="_blank" href="https://www.easeconvert.com/pdf-to-ofd/"><img border="0" alt="易转换" src="/img/IT/easeconvert.com.png" /></a>　<a target="_blank" href="https://www.ofd.cn/domConversionOfd/?type=toofd"><img border="0" alt="数科OFD" src="/img/IT/ofd.cn.png" /></a>
+			</td>
+			<td>
+				
+			</td>
+			<td>
+				
+			</td>
+			<td>
+				
+			</td>
+			<td>
+				
+			</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<iframe src="/search.htm" width="100%" height="100" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes"></iframe>
+
+
+<div style="text-align: center; ">
+
+        <span style="font-size:16pt; font-family:微软雅黑;">
+           <span id="date"></span>　　<span id="weekday"></span>
+        </span>
+
+    　　<span style="font-size:24pt; font-family:微软雅黑; color: rgb(255, 0, 255);">
+           <span id="time">
+        </span>
+
+</div>
+
+</body>
+</html>
